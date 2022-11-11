@@ -5,8 +5,8 @@
 
 			<nav>
 				<ul>
-					<li><a href="mtc.berlin" target="_blank">mtc.berlin</a></li>
-					<li><a href="depa.tech" target="_blank">depa.tech</a></li>
+					<!-- <li><a href="mtc.berlin" target="_blank">mtc.berlin</a></li>
+					<li><a href="depa.tech" target="_blank">depa.tech</a></li> -->
 				</ul>
 			</nav>
 		</div>
