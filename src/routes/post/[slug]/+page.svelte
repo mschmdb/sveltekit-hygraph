@@ -38,7 +38,7 @@
 					</svg>
 				</a>
 				<h1>{data.post.title}</h1>
-				<img src={data.post.image.id} alt={data.post.image.id} />
+				<img src={data.post.image.url} alt={data.post.image.id} />
 				<div class="wrapper">{@html data.post.content.text}</div>
 			</div>
 		</main>
