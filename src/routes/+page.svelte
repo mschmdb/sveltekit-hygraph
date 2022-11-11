@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Blogy</title>
+	<title>mtc.berlin</title>
 	<meta name="title" content="mtc.berlin" />
 	<meta name="description" content="mtc.berlin" />
 	<meta name="robots" content="index," />
