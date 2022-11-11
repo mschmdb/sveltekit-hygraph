@@ -1,0 +1,56 @@
+{
+	"name": "blogy",
+	"version": "1.0.0",
+	"description": "A blog web application with a headless cms graphql api",
+	"private": true,
+	"author": {
+		"name": "Ysn4Irix",
+		"email": "ysn4irix@gmail.com",
+		"url": "https://ysnirix.live"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ysn4Irix/blogy.git"
+	},
+	"keywords": [
+		"javascript",
+		"svelte",
+		"sveltekit",
+		"sveltejs",
+		"graphql",
+		"hygraph",
+		"graphcms",
+		"blogging",
+		"blog"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "git+https://github.com/Ysn4Irix/blogy/issues"
+	},
+	"homepage": "https://github.com/Ysn4Irix/blogy#readme",
+	"scripts": {
+		"dev": "vite dev --port 8899",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"dependencies": {
+		"@sveltejs/adapter-vercel": "^1.0.0-next.79",
+		"graphql": "^16.6.0",
+		"graphql-request": "^5.0.0"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"prettier": "^2.6.2",
+		"prettier-plugin-svelte": "^2.7.0",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.7.1",
+		"typescript": "^4.7.4",
+		"vite": "^3.1.0"
+	},
+	"type": "module"
+}
