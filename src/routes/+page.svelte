@@ -10,11 +10,8 @@
 
 <svelte:head>
 	<title>Blogy</title>
-	<meta name="title" content="Blogy" />
-	<meta
-		name="description"
-		content="blogy all about Technology, Programming, Web development topis."
-	/>
+	<meta name="title" content="mtc.berlin" />
+	<meta name="description" content="mtc.berlin" />
 	<meta name="robots" content="index," />
 	<link rel="canonical" href="/" />
 </svelte:head>
@@ -25,7 +22,7 @@
 
 	<div class="container">
 		<main>
-			<h2>Latest thoughts</h2>
+			<h2>We are:</h2>
 			<ul>
 				{#each data.posts.slice(0, first) as post}
 					<li
@@ -39,8 +36,8 @@
 						</div>
 						<div class="content">
 							<div class="author-section">
-								<img class="authorImg" src={post.publishedBy.picture} alt={post.publishedBy.id} />
-								<span class="author">{post.publishedBy.name}</span>
+								<!-- <img class="authorImg" src={post.publishedBy.picture} alt={post.publishedBy.id} />
+								<span class="author">{post.publishedBy.name}</span> -->
 							</div>
 							<a data-sveltekit-prefetch href={`/post/${post.slug}`}>{post.title}</a>
 							<p s-let>

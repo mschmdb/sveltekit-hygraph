@@ -1,12 +1,12 @@
 <header>
 	<div class="container">
 		<div class="navbar">
-			<a data-sveltekit-prefetch href="/" class="logo">Blogy</a>
+			<a data-sveltekit-prefetch href="/" class="logo">mtc.berlin</a>
 
 			<nav>
 				<ul>
-					<li><a href="https://ysnirix.live" target="_blank">Who?</a></li>
-					<li><a href="https://github.com/Ysn4Irix" target="_blank">Github</a></li>
+					<li><a href="mtc.berlin" target="_blank">mtc.berlin</a></li>
+					<li><a href="depa.tech" target="_blank">depa.tech</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -19,7 +19,7 @@
 		width: 90%;
 	}
 	header {
-		background: #8800ff;
+		background: #890c58;
 		padding: 1em 0;
 		border-top-left-radius: 25px;
 		border-top-right-radius: 25px;
