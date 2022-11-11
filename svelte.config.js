@@ -1,4 +1,5 @@
-import vercel from '@sveltejs/adapter-vercel'
+// import vercel from '@sveltejs/adapter-vercel'
+import adapter from '@sveltejs/adapter-static';
 import sveltePreprocess from 'svelte-preprocess'
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -12,16 +13,12 @@ const config = {
 			}
 		})
 	],
-	kit: {
-		adapter: vercel({
-			edge: false,
-			external: [],
-			split: false
-		}),
-		alias: {
-			$src: './src'
+	
+		kit: {
+		  adapter: adapter()
+		  
 		}
-	}
-}
+	  };
+
 
 export default config

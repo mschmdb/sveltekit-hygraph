@@ -1,6 +1,6 @@
 <script>
-	import Hero from '$src/components/Hero.svelte'
-	import Header from '$src/components/Header.svelte'
+	import Hero from '../../../components/Hero.svelte'
+	import Header from '../../../components/Header.svelte'
 	import { fly } from 'svelte/transition'
 
 	/** @type {import('./$types').PageData} */
