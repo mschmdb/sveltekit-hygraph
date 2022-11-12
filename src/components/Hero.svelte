@@ -1,7 +1,7 @@
 <div class="hero">
 	<div class="container">
 		<h1>headline</h1>
-		<p class="subtitle">Subheadline</p>
+		<p class="subtitle">Subheadline:</p>
 	</div>
 </div>
 
