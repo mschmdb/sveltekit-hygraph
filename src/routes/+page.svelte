@@ -12,7 +12,7 @@
 	<title>mtc.berlin</title>
 	<meta name="title" content="mtc.berlin" />
 	<meta name="description" content="mtc.berlin" />
-	<meta name="robots" content="index," />
+	<meta name="robots" content="noindex," />
 	<link rel="canonical" href="/" />
 </svelte:head>
 
