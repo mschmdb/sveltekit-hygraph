@@ -72,7 +72,7 @@
 				<div class="flex flex-col justify-center items-center py-8">
 					<button
 						on:click={() => (first = first + 3)}
-						class="flex bg-[#890c58]  self-center justify-center w-full px-2 py-1 text-white transition-colors duration-300 transform bg-blue-600 rounded-md focus:outline-none sm:w-auto sm:mx-1 hover:bg-blue-500 focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-40"
+						class="flex bg-[#890c58] self-center justify-center w-full px-2 py-1 text-white transition-colors duration-300 transform rounded-md focus:outline-none sm:w-auto sm:mx-1 focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-40"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
