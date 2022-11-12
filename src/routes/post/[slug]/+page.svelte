@@ -33,12 +33,7 @@
 					<div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
 						<p class="text-sm text-blue-500 uppercase">Title tbd</p>
 
-						<a
-							href={`/post/${data.post.slug}`}
-							class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl"
-						>
-							{data.post.title}
-						</a>
+						{data.post.title}
 
 						<p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
 							{data.post.content.text} ...
