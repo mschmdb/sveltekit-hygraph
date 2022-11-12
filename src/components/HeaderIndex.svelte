@@ -89,19 +89,19 @@
 					expansion and refactoring of existing, business applications and websites. Continuous
 					maintenance and support over the entire life cycle.
 				</p>
-				<div class="grid gap-6 mt-8 sm:grid-cols-1">
+				<div class="grid gap-6 mt-8 grid-cols-1">
 					<div class="flex items-center text-gray-800 -px-3 dark:text-gray-200">
 						<svg
 							class="w-5 h-5 mx-3"
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
-							stroke="currentColor"
+							stroke="#890c58"
 						>
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								stroke-width="2"
+								stroke-width="3"
 								d="M5 12h13M12 5l7 7-7 7"
 							/>
 						</svg>
@@ -115,12 +115,12 @@
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
-							stroke="currentColor"
+							stroke="#890c58"
 						>
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								stroke-width="2"
+								stroke-width="3"
 								d="M5 12h13M12 5l7 7-7 7"
 							/>
 						</svg>
@@ -136,12 +136,12 @@
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
-							stroke="currentColor"
+							stroke="#890c58"
 						>
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								stroke-width="2"
+								stroke-width="3"
 								d="M5 12h13M12 5l7 7-7 7"
 							/>
 						</svg>
@@ -155,12 +155,12 @@
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
 							viewBox="0 0 24 24"
-							stroke="currentColor"
+							stroke="#890c58"
 						>
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								stroke-width="2"
+								stroke-width="3"
 								d="M5 12h13M12 5l7 7-7 7"
 							/>
 						</svg>
