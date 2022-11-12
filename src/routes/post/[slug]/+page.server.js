@@ -19,6 +19,7 @@ export const load = async ({ params }) => {
 		`query PostsIndex ($slug: String!) {
             post (where: {slug: $slug}) {
               title
+			  jobtitle
               content {
 				text
               }

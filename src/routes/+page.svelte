@@ -34,7 +34,7 @@
 						/>
 
 						<div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
-							<p class="text-sm text-blue-500 uppercase">Title tbd</p>
+							<p class="text-sm text-blue-500 uppercase">{post.jobtitle}</p>
 
 							<a
 								href={`/post/${post.slug}`}

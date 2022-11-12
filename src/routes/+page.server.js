@@ -14,6 +14,7 @@ export const load = async () => {
         id
         slug
         title
+        jobtitle
         image {
           id
           url
