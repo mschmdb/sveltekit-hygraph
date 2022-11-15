@@ -4,9 +4,24 @@
 	import { fly } from 'svelte/transition'
 	import InfiniteScroll from 'svelte-infinite-scroll'
 
+	import postcss from 'postcss'
+	import { Button } from 'flowbite-svelte'
+
 	/** @type {import('./$types').PageData} */
 	export let data
 	let first = 4
+	// export let posts
+	// export const posts
+	let searchTerm = ''
+	// @ts-ignore
+	$: searchedPosts = data.posts.filter((post) => {
+		return post.title.toLowerCase().includes(searchTerm.toLowerCase())
+	})
+
+	// @ts-ignore
+	function handleClick(event) {
+		searchTerm = event
+	}
 </script>
 
 <svelte:head>
@@ -26,8 +41,18 @@
 				<h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
 					Who we are
 				</h1>
-				{#each data.posts.slice(0, first) as post}
-					<div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
+
+				<input
+					type="text"
+					bind:value={searchTerm}
+					class="rounded-md px-6 py-2 text-gray-700 placeholder-gray-500 bg-white outline-none dark:bg-gray-800 dark:placeholder-gray-400 focus:placeholder-transparent dark:focus:placeholder-transparent"
+				/>
+				<Button on:click={() => handleClick('')} color="dark">All</Button>
+				<Button color="alternative" on:click={() => handleClick('Matze')}>Matze</Button>
+				<Button color="alternative" on:click={() => handleClick('Gunnar')}>Gunnar</Button>
+
+				{#each searchedPosts as post}
+					<div id={post.slug} class="mt-8 lg:-mx-6 lg:flex lg:items-center">
 						<img
 							class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96"
 							src={post.image.url}
