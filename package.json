@@ -40,7 +40,8 @@
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^1.0.0-next.79",
 		"graphql": "^16.6.0",
-		"graphql-request": "^5.0.0"
+		"graphql-request": "^5.0.0",
+		"svelte-infinite-scroll": "^2.0.1"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
