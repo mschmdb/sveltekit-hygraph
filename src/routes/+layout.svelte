@@ -2,6 +2,6 @@
 	import '../app.postcss'
 </script>
 
-<div>
+<div data-sveltekit-prefetch>
 	<slot />
 </div>
