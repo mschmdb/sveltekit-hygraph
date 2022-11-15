@@ -1,4 +1,6 @@
 <script>
+	// @ts-nocheck
+
 	import { page } from '$app/stores'
 	let isOpen = false
 	let showMenu = false
@@ -70,7 +72,7 @@
 					>
 					<a
 						class="block font-medium text-gray-700 dark:text-gray-200 lg:mx-8 hover:text-gray-900 dark:hover:text-gray-400 hover:underline"
-						href="#">Projects?</a
+						href="/projects">Projects?</a
 					>
 					<a
 						class="block font-medium text-gray-700 dark:text-gray-200 lg:mx-8 hover:text-gray-900 dark:hover:text-gray-400 hover:underline"
