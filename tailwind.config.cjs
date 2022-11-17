@@ -5,6 +5,9 @@ const config = {
 	],
 
 	theme: {
+    colors: {
+      'mtc': '#890c58',
+    },
 		extend: {}
 	},
 

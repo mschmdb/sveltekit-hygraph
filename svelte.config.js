@@ -4,21 +4,41 @@ import sveltePreprocess from 'svelte-preprocess'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: [
+	preprocess: [{
+		crawl: true,
+		enabled: true,
+		onError: 'continue',
+		entries: ['*'],
+		postcss: true,
+		preserve: ['ld+json'],
+	},
+		
 		sveltePreprocess({
 			scss: {
 				prependData: `@import 'src/scss/_colors.scss';`,
 				renderSync: true,
 				outputStyle: 'expanded'
-			},
+			}
+	
 
-			postcss: true
+			
 		})
 	],
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: 'index.html',
+			precompress: false
+		}),
+		// prerender: {
+		// 	default: true
+		// },
+		trailingSlash: 'always'
 	}
+	
 }
 
 export default config
