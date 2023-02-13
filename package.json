@@ -38,7 +38,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
-		"@sveltejs/adapter-vercel": "^1.0.0-next.79",
+		"@sveltejs/adapter-vercel": "^2.0.2",
 		"graphql": "^16.6.0",
 		"graphql-request": "^5.0.0"
 	},
